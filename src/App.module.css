@@ -1,0 +1,51 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.countdown {
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+
+.tenth {
+    font-size: 8rem;
+    font-weight: 500;
+}
+
+.endAnimation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+.dynamicText {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.dynamicText h2 {
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+
+.text{
+    transition: 0.2s;
+}
