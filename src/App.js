@@ -20,7 +20,6 @@ function App() {
         setInterval(() => {
             let now = moment().locale("pt-br").tz("America/Maceio").valueOf();
             let t = endDate - now;
-            console.log(t);
 
             if (t >= 0) {
                 let countdownDays = Math.floor(t / (1000 * 60 * 60 * 24));
